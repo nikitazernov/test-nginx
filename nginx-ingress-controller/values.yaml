@@ -1,7 +1,6 @@
 controller:
-  replicaCount: 1
+  replicaCount: 3
   service:
     type: LoadBalancer
     httpsPort:
-      ## Enables the HTTPS port for the Ingress controller service.
       enable: false
